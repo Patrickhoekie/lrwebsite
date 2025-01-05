@@ -1,0 +1,21 @@
+.footer {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 4rem 0 2rem;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer ul {
+  list-style: none;
+} 
