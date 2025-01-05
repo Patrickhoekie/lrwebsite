@@ -1,5 +1,5 @@
 import { Hero } from './hero'
-import { Features } from './features'
+import { Features } from './features-temp'
 import { MarketingStats } from './marketing'
 import { CTASection } from './ctasection'
 
