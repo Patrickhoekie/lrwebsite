@@ -36,7 +36,7 @@ export function Footer() {
               </li>
               <li>
                 <a 
-                  href="https://calendly.com/loyalroots/30min"
+                  href="https://calendly.com/loyal-roots/kennismaking?month=2025-01"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"

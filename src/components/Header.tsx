@@ -44,7 +44,7 @@ export function Header() {
               ))}
             </nav>
             <a
-              href="https://calendly.com/loyalroots/30min"
+              href="https://calendly.com/loyal-roots/kennismaking?month=2025-01"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-primary px-4 py-2 rounded-lg font-medium hover:bg-white/90 transition-colors"
@@ -87,7 +87,7 @@ export function Header() {
                 </Link>
               ))}
               <a
-                href="https://calendly.com/loyalroots/30min"
+                href="https://calendly.com/loyal-roots/kennismaking?month=2025-01"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsMenuOpen(false)}
