@@ -1,12 +1,11 @@
 import { useState } from 'react'
-import './FAQ.css'
 
 interface FAQItem {
   question: string;
   answer: string;
 }
 
-function FAQ() {
+export function FAQ() {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   const faqItems: FAQItem[] = [
@@ -17,26 +16,42 @@ function FAQ() {
     {
       question: "Kan ik van pakket wisselen als mijn behoeften veranderen?",
       answer: "Ja, je kunt op elk moment upgraden of downgraden naar een ander pakket. We zorgen voor een soepele overgang zonder onderbreking van je campagnes."
+    },
+    {
+      question: "Hoe vaak krijg ik rapportages over de prestaties van mijn campagnes?",
+      answer: "Bij alle pakketten ontvang je maandelijkse rapportages via e-mail. Bij het Geavanceerd en Pro pakket krijg je daarnaast uitgebreide PowerPoint rapportages en toegang tot real-time dashboards voor directe inzichten."
+    },
+    {
+      question: "Wat houdt 'conversie tracken' precies in?",
+      answer: "Conversie tracking stelt ons in staat om specifieke acties van gebruikers op je website te meten, zoals aankopen, formulierinzendingen of telefonische contacten. Dit geeft inzicht in het rendement van je campagnes en helpt bij het optimaliseren van je marketing budget."
+    },
+    {
+      question: "Hoe lang duurt het voordat ik resultaten zie?",
+      answer: "De eerste resultaten zijn meestal binnen enkele weken zichtbaar. Voor Google Ads campagnes zien we vaak al binnen de eerste maand conversies, terwijl SEO-strategieën meestal 3-6 maanden nodig hebben om significant effect te tonen."
     }
   ];
 
   return (
-    <section className="faq">
-      <div className="container">
-        <h2>Veelgestelde vragen</h2>
-        {faqItems.map((item, index) => (
-          <div 
-            key={index} 
-            className="faq-item"
-            onClick={() => setActiveIndex(activeIndex === index ? null : index)}
-          >
-            <h3>{item.question}</h3>
-            {activeIndex === index && <p>{item.answer}</p>}
+    <div className="max-w-3xl mx-auto">
+      {faqItems.map((item, index) => (
+        <div 
+          key={index} 
+          className="mb-4 bg-white rounded-xl shadow-sm overflow-hidden"
+          onClick={() => setActiveIndex(activeIndex === index ? null : index)}
+        >
+          <div className="p-4 flex justify-between items-center cursor-pointer">
+            <h3 className="text-lg font-semibold">{item.question}</h3>
+            <span className="text-2xl text-primary">
+              {activeIndex === index ? '−' : '+'}
+            </span>
           </div>
-        ))}
-      </div>
-    </section>
+          {activeIndex === index && (
+            <div className="p-4 pt-0 text-gray-600 border-t">
+              {item.answer}
+            </div>
+          )}
+        </div>
+      ))}
+    </div>
   )
-}
-
-export default FAQ 
+} 

@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import { Header } from './components/Header'
-import { Footer } from './components/Footer'
-import { Home } from './pages/Home'
-import { About } from './pages/About'
-import { Services } from './pages/Services'
-import { Contact } from './pages/Contact'
+import { Header } from './components/header'
+import { Footer } from './components/footer'
+import { Home } from './components/home'
+import { About } from './components/about'
+import { Contact } from './components/contact'
+import { Services } from './components/services'
 
 export function App() {
   return (
@@ -15,12 +15,12 @@ export function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/over-ons" element={<About />} />
-            <Route path="/diensten" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/diensten" element={<Services />} />
           </Routes>
         </main>
         <Footer />
       </div>
     </Router>
   )
-}
+} 
