@@ -20,23 +20,23 @@ export function Footer() {
               <li>Tel: +31 6 20 71 23 95</li>
               <li>
                 <a 
-                  href="mailto:info@loyalroots.nl" 
+                  href="mailto:andrieswolbers@loyalroots.nl" 
                   className="hover:text-white transition-colors"
                 >
-                  info@loyalroots.nl
+                  andrieswolbers@loyalroots.nl
                 </a>
               </li>
               <li>
                 <a 
-                  href="mailto:Nick.vanderharst@loyalroots.nl"
+                  href="mailto:nickvanderharst@loyalroots.nl"
                   className="hover:text-white transition-colors"
                 >
-                  Nick.vanderharst@loyalroots.nl
+                  nickvanderharst@loyalroots.nl
                 </a>
               </li>
               <li>
                 <a 
-                  href="https://calendly.com"
+                  href="https://calendly.com/loyalroots/30min"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
