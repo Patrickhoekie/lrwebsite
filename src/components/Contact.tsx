@@ -1,4 +1,6 @@
-import './Contact.css'
+import { ContactPage } from './contactpage'
+import { ContactForm } from './contactform'
+import { FAQ } from './faq-section'
 
 function Contact() {
   return (

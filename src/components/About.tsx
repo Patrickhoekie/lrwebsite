@@ -1,3 +1,6 @@
+import { HeroSection } from './hero-section'
+import { TeamSection } from './team-section'
+
 export function About() {
   return (
     <div className="min-h-screen">

@@ -1,15 +1,13 @@
-import { Hero } from "./Hero"
+import { Hero } from './hero'
 import { Features } from './features'
-import { Services } from "./Services"
-import { MarketingStats } from "./MarketingStats"
-import { CTASection } from "./CTASection"
+import { MarketingStats } from './marketing'
+import { CTASection } from './ctasection'
 
 export function Home() {
   return (
     <>
       <Hero />
       <Features />
-      <Services />
       <MarketingStats />
       <CTASection />
     </>
