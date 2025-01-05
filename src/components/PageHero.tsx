@@ -10,7 +10,6 @@ export function PageHero({ title, subtitle }: PageHeroProps) {
         <h1 className="text-4xl font-bold mb-8">{title}</h1>
         <p className="text-xl max-w-2xl mx-auto">{subtitle}</p>
       </div>
-      {/* Golf decoratie */}
       <div className="absolute bottom-0 left-0 w-full overflow-hidden">
         <svg 
           viewBox="0 0 1440 100" 
@@ -20,7 +19,7 @@ export function PageHero({ title, subtitle }: PageHeroProps) {
           <path 
             fill="#ffffff" 
             fillOpacity="1" 
-            d="M0,32L1440,96L1440,320L0,320Z"
+            d="M0,40 C480,80 960,80 1440,40 L1440,100 L0,100 Z"
           />
         </svg>
       </div>

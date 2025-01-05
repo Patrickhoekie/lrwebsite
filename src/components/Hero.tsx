@@ -30,7 +30,7 @@ export function Hero() {
           <path 
             fill="#ffffff" 
             fillOpacity="1" 
-            d="M0,32L1440,96L1440,320L0,320Z"
+            d="M0,40 C480,80 960,80 1440,40 L1440,100 L0,100 Z"
           />
         </svg>
       </div>
