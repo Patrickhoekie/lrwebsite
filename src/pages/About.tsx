@@ -24,11 +24,11 @@ export function About() {
         <h2 className="text-3xl font-bold text-center mb-16">Ons Team</h2>
         <div className="grid md:grid-cols-2 gap-16 max-w-4xl mx-auto">
           <div className="text-center">
-            <div className="mb-6">
+            <div className="mb-6 overflow-hidden rounded-lg">
               <img
                 src="/images/foto-andries.jpg"
                 alt="Andries Wolbers"
-                className="w-full h-auto rounded-lg shadow-lg"
+                className="w-full h-auto transform transition-transform duration-500 hover:scale-110"
               />
             </div>
             <h3 className="text-xl font-bold mb-2">Andries Wolbers</h3>
@@ -39,11 +39,11 @@ export function About() {
           </div>
           
           <div className="text-center">
-            <div className="mb-6">
+            <div className="mb-6 overflow-hidden rounded-lg">
               <img
                 src="/images/foto-nick.jpg"
                 alt="Nick van der Harst"
-                className="w-full h-auto rounded-lg shadow-lg"
+                className="w-full h-auto transform transition-transform duration-500 hover:scale-110"
               />
             </div>
             <h3 className="text-xl font-bold mb-2">Nick van der Harst</h3>

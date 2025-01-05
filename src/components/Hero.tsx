@@ -3,14 +3,20 @@ export function Hero() {
     <div className="relative bg-primary text-white py-32">
       <div className="container mx-auto px-4">
         <div className="relative max-w-2xl mx-auto">
-          <img
-            src="/images/boom.webp"
-            alt="Loyal Roots Concept"
-            className="w-full h-auto"
-          />
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center w-full">
-            <h1 className="text-5xl font-bold mb-8 text-white">Loyal Roots</h1>
-            <p className="text-2xl text-white">We groeien samen, vanaf de roots.</p>
+          <div className="relative aspect-[16/10]">
+            <img
+              src="/images/boom.webp"
+              alt="Loyal Roots Concept"
+              width={800}
+              height={500}
+              className="w-full h-full object-contain absolute top-0 left-0"
+              loading="eager"
+              fetchPriority="high"
+            />
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-center z-10">
+              <h1 className="text-5xl font-bold mb-8 text-white">Loyal Roots</h1>
+              <p className="text-2xl text-white">We groeien samen, vanaf de roots.</p>
+            </div>
           </div>
         </div>
       </div>
