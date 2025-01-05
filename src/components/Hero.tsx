@@ -1,29 +1,33 @@
 export function Hero() {
   return (
-    <section className="relative h-[80vh] bg-[#2F6B6B]">
-      <div className="absolute inset-0 flex justify-center items-center">
-        <img 
-          src="/images/boom.webp" 
-          alt="Laptop met boom" 
-          className="w-[800px] object-contain"
-        />
+    <div className="relative bg-primary text-white py-32">
+      <div className="container mx-auto px-4">
+        <div className="relative max-w-2xl mx-auto">
+          <img
+            src="/images/boom.webp"
+            alt="Loyal Roots Concept"
+            className="w-full h-auto"
+          />
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center w-full">
+            <h1 className="text-5xl font-bold mb-8 text-white">Loyal Roots</h1>
+            <p className="text-2xl text-white">We groeien samen, vanaf de roots.</p>
+          </div>
+        </div>
       </div>
-      <div className="relative z-10 container mx-auto px-4 h-full flex flex-col justify-center items-center text-center text-white">
-        <h1 className="text-6xl font-bold mb-6">
-          Loyal Roots
-        </h1>
-        <p className="text-2xl mb-12">
-          We groeien samen, vanaf de roots.
-        </p>
-      </div>
-      <div className="absolute bottom-0 w-full z-20">
-        <svg viewBox="0 0 1440 160" className="w-full">
+
+      <div className="absolute bottom-0 left-0 w-full overflow-hidden">
+        <svg 
+          viewBox="0 0 1440 100" 
+          className="w-full h-[100px] transform translate-y-1"
+          preserveAspectRatio="none"
+        >
           <path 
             fill="#ffffff" 
-            d="M0,48L1440,96L1440,160L0,160Z"
+            fillOpacity="1" 
+            d="M0,32L1440,96L1440,320L0,320Z"
           />
         </svg>
       </div>
-    </section>
+    </div>
   )
 } 

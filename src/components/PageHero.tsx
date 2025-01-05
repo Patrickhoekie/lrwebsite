@@ -5,10 +5,10 @@ interface PageHeroProps {
 
 export function PageHero({ title, subtitle }: PageHeroProps) {
   return (
-    <div className="relative bg-primary text-white py-20">
+    <div className="relative bg-primary text-white py-32">
       <div className="container mx-auto px-4 text-center">
-        <h1 className="text-4xl font-bold mb-4">{title}</h1>
-        <p className="text-xl">{subtitle}</p>
+        <h1 className="text-4xl font-bold mb-8">{title}</h1>
+        <p className="text-xl max-w-2xl mx-auto">{subtitle}</p>
       </div>
       {/* Golf decoratie */}
       <div className="absolute bottom-0 left-0 w-full overflow-hidden">
