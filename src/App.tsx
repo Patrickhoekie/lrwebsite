@@ -5,6 +5,7 @@ import { Home } from './pages/Home'
 import { About } from './pages/About'
 import { Services } from './pages/Services'
 import { Contact } from './pages/Contact'
+import { ScrollToTop } from './components/ScrollToTop'
 
 export function App() {
   return (
@@ -20,6 +21,7 @@ export function App() {
           </Routes>
         </main>
         <Footer />
+        <ScrollToTop />
       </div>
     </Router>
   )
