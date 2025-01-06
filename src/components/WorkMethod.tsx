@@ -9,8 +9,8 @@ export function WorkMethod() {
         <div className="grid md:grid-cols-3 gap-12 max-w-5xl mx-auto">
           {/* Transparante Communicatie */}
           <div className="text-center">
-            <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
-              <Check className="w-8 h-8 text-primary" />
+            <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6 transition-all duration-300 hover:bg-primary hover:scale-110 group">
+              <Check className="w-8 h-8 text-primary transition-colors duration-300 group-hover:text-white" />
             </div>
             <h3 className="text-xl font-bold mb-4">Transparante Communicatie</h3>
             <p className="text-gray-600">
@@ -20,8 +20,8 @@ export function WorkMethod() {
 
           {/* Meetbare Resultaten */}
           <div className="text-center">
-            <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
-              <Zap className="w-8 h-8 text-primary" />
+            <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6 transition-all duration-300 hover:bg-primary hover:scale-110 group">
+              <Zap className="w-8 h-8 text-primary transition-colors duration-300 group-hover:text-white" />
             </div>
             <h3 className="text-xl font-bold mb-4">Meetbare Resultaten</h3>
             <p className="text-gray-600">
@@ -31,8 +31,8 @@ export function WorkMethod() {
 
           {/* Persoonlijke Aanpak */}
           <div className="text-center">
-            <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
-              <User className="w-8 h-8 text-primary" />
+            <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6 transition-all duration-300 hover:bg-primary hover:scale-110 group">
+              <User className="w-8 h-8 text-primary transition-colors duration-300 group-hover:text-white" />
             </div>
             <h3 className="text-xl font-bold mb-4">Persoonlijke Aanpak</h3>
             <p className="text-gray-600">

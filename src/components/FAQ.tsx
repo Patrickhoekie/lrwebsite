@@ -25,6 +25,14 @@ export function FAQ() {
     {
       question: "Hoe vaak krijg ik updates over de resultaten?",
       answer: "Afhankelijk van je pakket ontvang je wekelijks of maandelijks uitgebreide rapportages. Daarnaast zijn we altijd bereikbaar voor vragen."
+    },
+    {
+      question: "Wat gebeurt er als ik niet tevreden ben met de resultaten?",
+      answer: "Wij geloven in open communicatie. Als je niet tevreden bent, bespreken we samen de situatie en passen we de strategie aan waar nodig. We hebben geen langlopende contracten, dus je zit nergens aan vast."
+    },
+    {
+      question: "Hebben jullie ervaring in mijn branche?",
+      answer: "We hebben ervaring in diverse branches, van e-commerce tot zakelijke dienstverlening. In een vrijblijvend gesprek bespreken we graag onze ervaring in jouw specifieke branche en hoe we je kunnen helpen."
     }
   ];
 

@@ -1,6 +1,6 @@
 export function Hero() {
   return (
-    <div className="relative bg-primary text-white py-32">
+    <div className="relative bg-gradient-to-b from-primary via-primary/95 to-primary/80 text-white py-32">
       <div className="container mx-auto px-4">
         <div className="relative max-w-2xl mx-auto">
           <div className="relative aspect-[16/10]">
@@ -11,7 +11,7 @@ export function Hero() {
               height={500}
               className="w-full h-full object-contain absolute top-0 left-0"
               loading="eager"
-              fetchPriority="high"
+              fetchpriority="high"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center z-10">
               <h1 className="text-5xl font-bold mb-8 text-white">Loyal Roots</h1>

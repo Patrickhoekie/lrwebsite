@@ -5,7 +5,7 @@ export function ContactForm() {
 
   if (state.succeeded) {
     return (
-      <div className="bg-white p-8 rounded-xl shadow-sm text-center">
+      <div className="bg-gray-50 p-8 rounded-xl shadow-lg text-center">
         <h2 className="text-2xl font-bold text-primary mb-4">Bedankt voor uw bericht!</h2>
         <p className="text-gray-600">We nemen zo spoedig mogelijk contact met u op.</p>
       </div>
@@ -15,7 +15,7 @@ export function ContactForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="relative z-10 space-y-6 bg-white p-8 rounded-xl shadow-sm"
+      className="relative z-10 space-y-6 bg-gray-50 p-8 rounded-xl shadow-lg"
     >
       <h2 className="text-2xl font-bold mb-6">Laat een bericht achter</h2>
       <p className="text-gray-600 mb-8">Wij nemen zo snel mogelijk contact met u op</p>

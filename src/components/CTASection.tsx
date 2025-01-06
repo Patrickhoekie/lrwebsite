@@ -1,6 +1,6 @@
 export function CTASection() {
   return (
-    <section className="relative py-32">
+    <section className="relative py-24">
       {/* Achtergrondafbeelding met overlay */}
       <div 
         className="absolute inset-0 z-0"
